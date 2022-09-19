@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header nav{
+    width: 80%;
+    margin: auto;
+}
+
+nav{
+    background-color: orangered;
+    height: 100px;
+}
+
+#discord-logo-top{
+    width: 10%;
+    background-color: lightgreen;
+}
+
+#menu{
+    width: 50%;
+    background-color: lightgreen;
+}
+
+#login{
+    width: 10%;
+    background-color: lightgreen;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
