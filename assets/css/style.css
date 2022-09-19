@@ -29,7 +29,37 @@ nav{
     background-color: lightgreen;
 }
 
-.flex{
+.flexHeader{
     display: flex;
     justify-content: space-between;
+}
+
+#header-title{
+    width: 60%;
+    margin: auto;
+    background-color: orange;
+    height: 250px;
+}
+
+.flexSection{
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    background-color: orangered;
+}
+
+#immagine{
+    width: 45%; 
+    background-color: green;   
+    height: 250px;
+}
+
+#scritte{
+    width: 45%; 
+    background-color: greenyellow;  
+    height: 250px;
 }
