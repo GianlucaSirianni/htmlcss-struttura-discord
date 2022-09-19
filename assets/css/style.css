@@ -65,7 +65,7 @@ nav{
 } */
 
 
-#immagine{
+.immagine{
     width: 40%; 
     margin: auto;
     background-color: green;   
