@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+header{
+    background-color: grey;
+}
+
 header nav{
     width: 80%;
     margin: auto;
@@ -44,22 +48,41 @@ nav{
 .flexSection{
     display: flex;
     justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-main{
+/* main{
+    width: 80%;
+    margin: auto;
+    background-color: pink;
+} */
+
+/* section{
     width: 80%;
     margin: auto;
     background-color: orangered;
-}
+} */
+
 
 #immagine{
-    width: 45%; 
+    width: 40%; 
+    margin: auto;
     background-color: green;   
     height: 250px;
 }
 
 #scritte{
-    width: 45%; 
+    width: 40%; 
+    margin: auto;
     background-color: greenyellow;  
     height: 250px;
+}
+
+.sec1-3{
+    background-color: white;
+}
+
+.sec2{
+    background-color: grey;
 }
